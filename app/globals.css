@@ -146,14 +146,18 @@ main { width: 100%; max-width: 560px; }
 .plays-info { text-align: left; }
 .plays-left { font-size: 13px; color: var(--text2); }
 .no-preview { font-size: 11px; color: var(--text3); margin-top: 3px; }
-.spotify-note {
+.preview-note {
   display: flex; align-items: center; gap: 5px;
   font-size: 11px; color: var(--text3); margin-top: 10px; justify-content: center;
 }
-.spotify-dot { width: 8px; height: 8px; border-radius: 50%; background: #1DB954; flex-shrink:0; }
+.preview-dot { width: 8px; height: 8px; border-radius: 50%; background: #1DB954; flex-shrink: 0; }
 
 .guess-section { margin-bottom: 4px; }
 .guess-history { display: flex; flex-direction: column; gap: 7px; margin-bottom: 12px; }
+.guesses-remaining {
+  font-size: 12px; color: var(--text3); text-align: center;
+  margin-bottom: 8px;
+}
 .guess-row { display: flex; }
 .guess-tile {
   flex: 1; padding: 10px 12px; border-radius: var(--radius);
@@ -163,15 +167,6 @@ main { width: 100%; max-width: 560px; }
 .guess-tile.correct { background: var(--green-bg); border-color: var(--green-border); color: var(--green-text); }
 .guess-tile.wrong { color: var(--text3); text-decoration: line-through; }
 .guess-tile.skipped { color: var(--text3); font-style: italic; }
-.empty-tile {
-  flex: 1; padding: 10px 12px; border-radius: var(--radius);
-  border: 0.5px dashed var(--border); min-height: 40px;
-}
-.active-tile {
-  flex: 1; padding: 10px 12px; border-radius: var(--radius);
-  border: 1.5px solid var(--purple-btn); min-height: 40px;
-  background: var(--surface);
-}
 
 .hint-box {
   background: var(--info-bg); border: 0.5px solid var(--info-border);
@@ -211,8 +206,7 @@ main { width: 100%; max-width: 560px; }
 .sib-play-btn.playing { background: var(--purple-bg); border-color: var(--purple-btn); color: var(--purple-btn); }
 
 .input-area {
-  position: sticky; bottom: 0; z-index: 10;
-  background: var(--bg); padding-bottom: 8px;
+  padding-bottom: env(safe-area-inset-bottom, 8px);
 }
 .input-wrap { position: relative; margin-bottom: 0; }
 .song-input {
