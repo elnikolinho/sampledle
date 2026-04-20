@@ -23,6 +23,7 @@ export default function Home() {
           artist: "The Sugarhill Gang",
           year: 1979,
         },
+        hint1: "Released the same year as the original — one of the genre's founding tracks",
         hint: "One of the earliest and most famous hip-hop records ever pressed",
         genre: "Hip-Hop",
         sampleAt: 0,
@@ -50,6 +51,7 @@ export default function Home() {
           artist: "MC Hammer",
           year: 1990,
         },
+        hint1: "The artist is known for flashy dance moves and iconic baggy pants",
         hint: "MC Hammer's signature hit — you'll know it by the pants",
         genre: "Pop Rap",
         sampleAt: 3,
@@ -81,6 +83,7 @@ export default function Home() {
           artist: "Coolio ft. L.V.",
           year: 1995,
         },
+        hint1: "A mid-'90s soundtrack single that became bigger than the movie itself",
         hint: "Featured on the Dangerous Minds soundtrack — spent 3 weeks at #1",
         genre: "Hip-Hop",
         sampleAt: 0,
@@ -108,6 +111,7 @@ export default function Home() {
           artist: "The Notorious B.I.G.",
           year: 1997,
         },
+        hint1: "A posthumous #1 hit from 1997 on Bad Boy Records",
         hint: "Notorious B.I.G.'s posthumous 1997 chart-topper ft. Puff Daddy",
         genre: "East Coast Hip-Hop",
         sampleAt: 0,
@@ -139,6 +143,7 @@ export default function Home() {
           artist: "2Pac ft. Dr. Dre",
           year: 1995,
         },
+        hint1: "A defining West Coast anthem released in 1995",
         hint: "2Pac and Dr. Dre's definitive West Coast anthem",
         genre: "West Coast Hip-Hop",
         sampleAt: 0,
@@ -166,6 +171,7 @@ export default function Home() {
           artist: "Daft Punk",
           year: 2001,
         },
+        hint1: "An electronic duo released this on their Discovery album in 2001",
         hint: "A Daft Punk classic later flipped again by Kanye West",
         genre: "French House / Electronic",
         sampleAt: 0,
@@ -193,6 +199,7 @@ export default function Home() {
           year: 1980,
         },
         answer: { title: "Gin and Juice", artist: "Snoop Dogg", year: 1993 },
+        hint1: "A laid-back 1993 single from a legendary West Coast debut album",
         hint: "One of Snoop Dogg's most iconic debut-era singles",
         genre: "G-Funk / West Coast Hip-Hop",
         sampleAt: 0,
@@ -224,6 +231,7 @@ export default function Home() {
           artist: "Kendrick Lamar",
           year: 2012,
         },
+        hint1: "Shares its name with a 1993 film starring Tupac Shakur",
         hint: "A smooth Kendrick Lamar track from good kid, m.A.A.d city ft. Drake",
         genre: "West Coast Hip-Hop",
         sampleAt: 0,
@@ -255,6 +263,7 @@ export default function Home() {
           artist: "Kanye West",
           year: 2013,
         },
+        hint1: "Released on a polarizing 2013 album known for its industrial sound",
         hint: "A dark, orchestral Kanye West track from Yeezus using Nina Simone's version",
         genre: "Experimental Hip-Hop / Trap",
         sampleAt: 10,
@@ -282,6 +291,7 @@ export default function Home() {
           year: 1957,
         },
         answer: { title: "Big Pimpin'", artist: "Jay-Z ft. UGK", year: 2000 },
+        hint1: "Features a legendary Southern rap duo from Texas",
         hint: "One of Jay-Z's biggest commercial hits, featuring UGK",
         genre: "Hip-Hop / Southern Rap",
         sampleAt: 0,
@@ -313,6 +323,7 @@ export default function Home() {
           artist: "French Montana ft. Rick Ross",
           year: 2012,
         },
+        hint1: "A 2012 club banger with four major rappers on the track",
         hint: "A 2012 hip-hop hit featuring Rick Ross, Drake and Lil Wayne",
         genre: "Trap / Hip-Hop",
         sampleAt: 0,
@@ -340,6 +351,7 @@ export default function Home() {
           year: 1968,
         },
         answer: { title: "The World Is Yours", artist: "Nas", year: 1994 },
+        hint1: "From a 1994 debut album widely considered a hip-hop masterpiece",
         hint: "A defining track from Nas's debut Illmatic — one of the greatest albums ever",
         genre: "East Coast Hip-Hop",
         sampleAt: 0,
@@ -363,6 +375,7 @@ export default function Home() {
         answerSearch: "Nas NY State of Mind",
         source: { title: "It's a New Day", artist: "Skull Snaps", year: 1973 },
         answer: { title: "N.Y. State of Mind", artist: "Nas", year: 1994 },
+        hint1: "A raw portrait of Queensbridge from a legendary 1994 debut",
         hint: "Widely considered one of the greatest rap songs ever recorded",
         genre: "East Coast Hip-Hop",
         sampleAt: 0,
@@ -390,6 +403,7 @@ export default function Home() {
           artist: "Kanye West ft. Otis Redding",
           year: 2005,
         },
+        hint1: "A 2005 deep cut featuring sampled vocals from a soul legend",
         hint: "A Late Registration deep cut by Kanye, featuring Otis Redding's vocals",
         genre: "Hip-Hop / Soul Rap",
         sampleAt: 0,
@@ -417,6 +431,7 @@ export default function Home() {
           year: 1967,
         },
         answer: { title: "Work It", artist: "Missy Elliott", year: 2002 },
+        hint1: "Produced by Timbaland — the vocal hook plays in reverse",
         hint: "Missy Elliott's signature 2002 track — the beat plays backwards",
         genre: "Hip-Hop / R&B",
         sampleAt: 0,
@@ -448,6 +463,7 @@ export default function Home() {
           artist: "Dr. Dre ft. Snoop Dogg",
           year: 1999,
         },
+        hint1: "A late-'90s release that became a staple at sports events worldwide",
         hint: "Dr. Dre and Snoop Dogg track from the legendary 2001 album",
         genre: "West Coast Hip-Hop / G-Funk",
         sampleAt: 0,
@@ -475,6 +491,7 @@ export default function Home() {
           year: 1972,
         },
         answer: { title: "Hotline Bling", artist: "Drake", year: 2015 },
+        hint1: "Its music video spawned countless dance memes in 2015",
         hint: "A 2015 Drake hit with a now-iconic music video",
         genre: "Pop Rap / R&B",
         sampleAt: 81,
@@ -502,6 +519,7 @@ export default function Home() {
           artist: "OutKast",
           year: 2000,
         },
+        hint1: "An explosive album opener from an Atlanta duo's Stankonia",
         hint: "OutKast's explosive 2000 opener — the Amen break is one of music's most sampled drums",
         genre: "Southern Hip-Hop / Experimental",
         sampleAt: 86,
@@ -529,6 +547,7 @@ export default function Home() {
           artist: "Public Enemy",
           year: 1989,
         },
+        hint1: "Commissioned for a 1989 Spike Lee film about racial tension in Brooklyn",
         hint: "A Public Enemy anthem from Spike Lee's Do the Right Thing",
         genre: "Political Hip-Hop",
         sampleAt: 322,
@@ -550,6 +569,7 @@ export default function Home() {
       { sourceSearch:"Isley Brothers Footsteps in the Dark", answerSearch:"Ice Cube It Was a Good Day",
         source:{title:"Footsteps in the Dark",artist:"The Isley Brothers",year:1977},
         answer:{title:"It Was a Good Day",artist:"Ice Cube",year:1993},
+        hint1:"The narrator describes 24 hours without any trouble in South Central LA",
         hint:"Ice Cube paints a perfect day in South Central — no barking from the dog",
         genre:"West Coast Hip-Hop", sampleAt:0,
         siblings:[{title:"Straight Outta Compton",artist:"N.W.A",year:1988,note:"Ice Cube's earlier group"},{title:"Between the Sheets",artist:"The Isley Brothers",year:1983,note:"Also heavily sampled by hip-hop producers"}]
@@ -557,6 +577,7 @@ export default function Home() {
       { sourceSearch:"Mtume Juicy Fruit", answerSearch:"Notorious BIG Juicy",
         source:{title:"Juicy Fruit",artist:"Mtume",year:1983},
         answer:{title:"Juicy",artist:"The Notorious B.I.G.",year:1994},
+        hint1:"A rags-to-riches debut single from a Brooklyn hip-hop legend",
         hint:"Biggie's debut single — a rags-to-riches anthem from Ready to Die",
         genre:"East Coast Hip-Hop", sampleAt:0,
         siblings:[{title:"Big Poppa",artist:"The Notorious B.I.G.",year:1994,note:"Same Ready to Die album"},{title:"One More Chance",artist:"The Notorious B.I.G.",year:1994,note:"Same Puff Daddy production era"}]
@@ -564,6 +585,7 @@ export default function Home() {
       { sourceSearch:"Chaka Khan Through the Fire", answerSearch:"Kanye West Through the Wire",
         source:{title:"Through the Fire",artist:"Chaka Khan",year:1984},
         answer:{title:"Through the Wire",artist:"Kanye West",year:2003},
+        hint1:"The artist recorded this under extraordinary physical circumstances",
         hint:"Kanye recorded this with his jaw wired shut after a car accident",
         genre:"Hip-Hop / Soul Rap", sampleAt:56,
         siblings:[{title:"Jesus Walks",artist:"Kanye West",year:2004,note:"Same College Dropout album"},{title:"All Falls Down",artist:"Kanye West",year:2004,note:"Same breakout era"}]
@@ -571,6 +593,7 @@ export default function Home() {
       { sourceSearch:"Daft Punk Harder Better Faster Stronger", answerSearch:"Kanye West Stronger",
         source:{title:"Harder, Better, Faster, Stronger",artist:"Daft Punk",year:2001},
         answer:{title:"Stronger",artist:"Kanye West",year:2007},
+        hint1:"From a 2007 album named after an academic ceremony",
         hint:"Kanye's electronic-influenced hit from Graduation — what doesn't kill you...",
         genre:"Pop Rap / Electronic", sampleAt:0,
         siblings:[{title:"Good Morning",artist:"Kanye West",year:2007,note:"Same Graduation album"},{title:"Can't Tell Me Nothing",artist:"Kanye West",year:2007,note:"Same Graduation era"}]
@@ -578,6 +601,7 @@ export default function Home() {
       { sourceSearch:"King Crimson 21st Century Schizoid Man", answerSearch:"Kanye West Power",
         source:{title:"21st Century Schizoid Man",artist:"King Crimson",year:1969},
         answer:{title:"Power",artist:"Kanye West",year:2010},
+        hint1:"Lead single from a maximalist 2010 hip-hop album",
         hint:"Kanye's grandiose MBDTF lead single — 'no one man should have all that power'",
         genre:"Hip-Hop / Experimental", sampleAt:0,
         siblings:[{title:"Monster",artist:"Kanye West",year:2010,note:"Same MBDTF album"},{title:"Runaway",artist:"Kanye West",year:2010,note:"Same MBDTF album"}]
@@ -585,6 +609,7 @@ export default function Home() {
       { sourceSearch:"Smokey Robinson Will You Love Me Tomorrow", answerSearch:"Kanye West Devil in a New Dress",
         source:{title:"Will You Love Me Tomorrow",artist:"Smokey Robinson",year:1978},
         answer:{title:"Devil in a New Dress",artist:"Kanye West ft. Rick Ross",year:2010},
+        hint1:"Contains one of the most celebrated guest rap verses of the 2010s",
         hint:"A smooth MBDTF deep cut with one of Rick Ross's greatest verses",
         genre:"Hip-Hop / Soul", sampleAt:126,
         siblings:[{title:"Gorgeous",artist:"Kanye West",year:2010,note:"Same MBDTF album"},{title:"All of the Lights",artist:"Kanye West",year:2010,note:"Same MBDTF album"}]
@@ -592,6 +617,7 @@ export default function Home() {
       { sourceSearch:"Ponderosa Twins Plus One Bound", answerSearch:"Kanye West Bound 2",
         source:{title:"Bound",artist:"Ponderosa Twins Plus One",year:1971},
         answer:{title:"Bound 2",artist:"Kanye West",year:2013},
+        hint1:"The soulful, melodic closing track on a harsh 2013 album",
         hint:"The soulful closer to Yeezus — also featured an infamous music video",
         genre:"Hip-Hop / Soul", sampleAt:0,
         siblings:[{title:"On Sight",artist:"Kanye West",year:2013,note:"Same Yeezus album"},{title:"Black Skinhead",artist:"Kanye West",year:2013,note:"Same Yeezus album"}]
@@ -599,6 +625,7 @@ export default function Home() {
       { sourceSearch:"Curtis Mayfield Move On Up", answerSearch:"Kanye West Touch the Sky",
         source:{title:"Move On Up",artist:"Curtis Mayfield",year:1970},
         answer:{title:"Touch the Sky",artist:"Kanye West ft. Lupe Fiasco",year:2005},
+        hint1:"Features the mainstream debut of a Chicago rapper who'd become a star",
         hint:"A triumphant Late Registration single featuring Lupe Fiasco's debut",
         genre:"Hip-Hop / Soul Rap", sampleAt:0,
         siblings:[{title:"Gold Digger",artist:"Kanye West",year:2005,note:"Same Late Registration album"},{title:"Drive Slow",artist:"Kanye West",year:2005,note:"Same Late Registration album"}]
@@ -606,6 +633,7 @@ export default function Home() {
       { sourceSearch:"Ray Charles I Got a Woman", answerSearch:"Kanye West Gold Digger",
         source:{title:"I Got a Woman",artist:"Ray Charles",year:1954},
         answer:{title:"Gold Digger",artist:"Kanye West ft. Jamie Foxx",year:2005},
+        hint1:"An Oscar-winning actor channels a classic R&B voice on the hook",
         hint:"Kanye's biggest commercial hit from Late Registration — Jamie Foxx sings the hook",
         genre:"Pop Rap", sampleAt:0,
         siblings:[{title:"Touch the Sky",artist:"Kanye West",year:2005,note:"Same Late Registration album"},{title:"Diamonds from Sierra Leone",artist:"Kanye West",year:2005,note:"Same album era"}]
@@ -613,6 +641,7 @@ export default function Home() {
       { sourceSearch:"The Charmels As Long As I Got You", answerSearch:"Wu-Tang Clan C.R.E.A.M.",
         source:{title:"As Long as I've Got You",artist:"The Charmels",year:1967},
         answer:{title:"C.R.E.A.M.",artist:"Wu-Tang Clan",year:1993},
+        hint1:"An acronym that became a financial motto from Staten Island's finest",
         hint:"Wu-Tang's ode to money — 'cash rules everything around me'",
         genre:"East Coast Hip-Hop", sampleAt:0,
         siblings:[{title:"Protect Ya Neck",artist:"Wu-Tang Clan",year:1993,note:"Same 36 Chambers album"},{title:"Method Man",artist:"Wu-Tang Clan",year:1993,note:"Same 36 Chambers album"}]
@@ -620,6 +649,7 @@ export default function Home() {
       { sourceSearch:"Herbie Hancock Jessica", answerSearch:"Mobb Deep Shook Ones Part II",
         source:{title:"Jessica",artist:"Herbie Hancock",year:1969},
         answer:{title:"Shook Ones, Part II",artist:"Mobb Deep",year:1995},
+        hint1:"One of the hardest beats ever produced, from a Queensbridge duo",
         hint:"One of the hardest beats in hip-hop history — Queensbridge's finest",
         genre:"East Coast Hip-Hop / Hardcore", sampleAt:0,
         siblings:[{title:"Survival of the Fittest",artist:"Mobb Deep",year:1995,note:"Same The Infamous album"},{title:"Shook Ones, Part I",artist:"Mobb Deep",year:1995,note:"The precursor"}]
@@ -627,6 +657,7 @@ export default function Home() {
       { sourceSearch:"Dido Thank You", answerSearch:"Eminem Stan",
         source:{title:"Thank You",artist:"Dido",year:1998},
         answer:{title:"Stan",artist:"Eminem ft. Dido",year:2000},
+        hint1:"This track's title became a dictionary word meaning 'obsessive fan'",
         hint:"Eminem's haunting narrative about an obsessed fan — now a word in the dictionary",
         genre:"Hip-Hop / Narrative", sampleAt:0,
         siblings:[{title:"The Real Slim Shady",artist:"Eminem",year:2000,note:"Same Marshall Mathers LP"},{title:"The Way I Am",artist:"Eminem",year:2000,note:"Same Marshall Mathers LP"}]
@@ -634,6 +665,7 @@ export default function Home() {
       { sourceSearch:"Leon Haywood I Wanna Do Something Freaky to You", answerSearch:"Dr Dre Nuthin But a G Thang",
         source:{title:"I Want'a Do Something Freaky to You",artist:"Leon Haywood",year:1975},
         answer:{title:"Nuthin' but a 'G' Thang",artist:"Dr. Dre ft. Snoop Dogg",year:1992},
+        hint1:"This 1992 track introduced a Long Beach MC to the world",
         hint:"The song that launched G-funk and introduced the world to Snoop Dogg",
         genre:"G-Funk / West Coast Hip-Hop", sampleAt:0,
         siblings:[{title:"Deep Cover",artist:"Dr. Dre & Snoop Dogg",year:1992,note:"Their first collaboration"},{title:"Let Me Ride",artist:"Dr. Dre",year:1992,note:"Same The Chronic album"}]
@@ -641,6 +673,7 @@ export default function Home() {
       { sourceSearch:"Dennis Edwards Don't Look Any Further", answerSearch:"Eric B Rakim Paid in Full",
         source:{title:"Don't Look Any Further",artist:"Dennis Edwards",year:1984},
         answer:{title:"Paid in Full",artist:"Eric B. & Rakim",year:1987},
+        hint1:"A golden-age hip-hop title track — 'thinking of a master plan'",
         hint:"Eric B. & Rakim's title track — 'thinking of a master plan'",
         genre:"Golden Age Hip-Hop", sampleAt:30,
         siblings:[{title:"I Know You Got Soul",artist:"Eric B. & Rakim",year:1987,note:"Same album"},{title:"My Melody",artist:"Eric B. & Rakim",year:1987,note:"Same debut album"}]
@@ -648,6 +681,7 @@ export default function Home() {
       { sourceSearch:"Tommy Butler Prison Song", answerSearch:"Future Mask Off",
         source:{title:"Prison Song",artist:"Tommy Butler",year:1976},
         answer:{title:"Mask Off",artist:"Future",year:2017},
+        hint1:"A viral 2017 hit built around a hypnotic flute melody",
         hint:"Future's viral hit built on an unforgettable flute riff — produced by Metro Boomin",
         genre:"Trap / Hip-Hop", sampleAt:0,
         siblings:[{title:"March Madness",artist:"Future",year:2015,note:"Same trap anthem energy"},{title:"Low Life",artist:"Future ft. The Weeknd",year:2016,note:"Same EVOL era"}]
@@ -655,6 +689,7 @@ export default function Home() {
       { sourceSearch:"Lauryn Hill Ex-Factor", answerSearch:"Drake Nice for What",
         source:{title:"Ex-Factor",artist:"Lauryn Hill",year:1998},
         answer:{title:"Nice for What",artist:"Drake",year:2018},
+        hint1:"A bounce-influenced 2018 #1 hit celebrating women",
         hint:"Drake's empowering 2018 #1 hit — a bounce-influenced banger",
         genre:"Pop Rap / Bounce", sampleAt:0,
         siblings:[{title:"God's Plan",artist:"Drake",year:2018,note:"Same Scorpion era"},{title:"In My Feelings",artist:"Drake",year:2018,note:"Same album, same year"}]
@@ -662,6 +697,7 @@ export default function Home() {
       { sourceSearch:"Beach House Silver Soul", answerSearch:"Kendrick Lamar Money Trees",
         source:{title:"Silver Soul",artist:"Beach House",year:2010},
         answer:{title:"Money Trees",artist:"Kendrick Lamar ft. Jay Rock",year:2012},
+        hint1:"Features Jay Rock on a dreamy, hypnotic hip-hop track from 2012",
         hint:"A hypnotic good kid, m.A.A.d city standout — 'it go Halle Berry or hallelujah'",
         genre:"West Coast Hip-Hop", sampleAt:0,
         siblings:[{title:"Bitch, Don't Kill My Vibe",artist:"Kendrick Lamar",year:2012,note:"Same GKMC album"},{title:"m.A.A.d city",artist:"Kendrick Lamar",year:2012,note:"Same album"}]
@@ -669,6 +705,7 @@ export default function Home() {
       { sourceSearch:"Doug E Fresh Slick Rick La Di Da Di", answerSearch:"Snoop Dogg Lodi Dodi",
         source:{title:"La Di Da Di",artist:"Doug E. Fresh & Slick Rick",year:1985},
         answer:{title:"Lodi Dodi",artist:"Snoop Dogg",year:1993},
+        hint1:"A near bar-for-bar tribute remake on a 1993 West Coast debut album",
         hint:"Snoop's tribute remake from Doggystyle — one of hip-hop's most sampled tracks",
         genre:"West Coast Hip-Hop / G-Funk", sampleAt:0,
         siblings:[{title:"Who Am I (What's My Name)?",artist:"Snoop Dogg",year:1993,note:"Same Doggystyle album"},{title:"Children's Story",artist:"Slick Rick",year:1988,note:"Slick Rick's storytelling legacy"}]
@@ -676,6 +713,7 @@ export default function Home() {
       { sourceSearch:"Otis Redding Try a Little Tenderness", answerSearch:"Kanye West Jay-Z Otis",
         source:{title:"Try a Little Tenderness",artist:"Otis Redding",year:1966},
         answer:{title:"Otis",artist:"Jay-Z & Kanye West",year:2011},
+        hint1:"Named after a soul legend — from a 2011 collaborative album",
         hint:"The lead single from Watch the Throne — Jay and Kanye at their most triumphant",
         genre:"Hip-Hop / Soul", sampleAt:0,
         siblings:[{title:"N***as in Paris",artist:"Jay-Z & Kanye West",year:2011,note:"Same Watch the Throne album"},{title:"No Church in the Wild",artist:"Jay-Z & Kanye West",year:2011,note:"Same WTT album"}]
@@ -693,6 +731,7 @@ export default function Home() {
       answerSearch: string;
       source: { title: string; artist: string; year: number };
       answer: { title: string; artist: string; year: number };
+      hint1: string;
       hint: string;
       genre: string;
       sampleAt: number;
@@ -701,69 +740,247 @@ export default function Home() {
     }
 
     const ALL_SONGS = [
-      { title: "Hotline Bling", artist: "Drake" },
-      { title: "Fight the Power", artist: "Public Enemy" },
-      { title: "Rapper's Delight", artist: "The Sugarhill Gang" },
-      { title: "U Can't Touch This", artist: "MC Hammer" },
-      { title: "California Love", artist: "2Pac ft. Dr. Dre" },
-      { title: "The World Is Yours", artist: "Nas" },
-      { title: "N.Y. State of Mind", artist: "Nas" },
-      { title: "Mo Money Mo Problems", artist: "The Notorious B.I.G." },
-      { title: "Harder, Better, Faster, Stronger", artist: "Daft Punk" },
-      { title: "Gin and Juice", artist: "Snoop Dogg" },
-      { title: "The Next Episode", artist: "Dr. Dre ft. Snoop Dogg" },
-      { title: "No Role Modelz", artist: "J. Cole" },
-      { title: "Gone", artist: "Kanye West ft. Otis Redding" },
-      { title: "Poetic Justice", artist: "Kendrick Lamar" },
-      { title: "Pop That", artist: "French Montana ft. Rick Ross" },
-      { title: "Big Pimpin'", artist: "Jay-Z ft. UGK" },
-      { title: "B.O.B. (Bombs Over Baghdad)", artist: "OutKast" },
-      { title: "Gangsta's Paradise", artist: "Coolio ft. L.V." },
-      { title: "Work It", artist: "Missy Elliott" },
-      { title: "Blood on the Leaves", artist: "Kanye West" },
-      { title: "Lose Yourself", artist: "Eminem" },
-      { title: "HUMBLE.", artist: "Kendrick Lamar" },
-      { title: "Gold Digger", artist: "Kanye West" },
-      { title: "99 Problems", artist: "Jay-Z" },
-      { title: "In Da Club", artist: "50 Cent" },
-      { title: "Ms. Jackson", artist: "OutKast" },
-      { title: "Sicko Mode", artist: "Travis Scott" },
-      { title: "God's Plan", artist: "Drake" },
-      { title: "Alright", artist: "Kendrick Lamar" },
-      { title: "Formation", artist: "Beyoncé" },
-      { title: "Old Town Road", artist: "Lil Nas X" },
-      { title: "Blinding Lights", artist: "The Weeknd" },
-      { title: "Stronger", artist: "Kanye West" },
-      { title: "Swimming Pools", artist: "Kendrick Lamar" },
-      { title: "Empire State of Mind", artist: "Jay-Z" },
-      { title: "Stan", artist: "Eminem" },
-      { title: "Juicy", artist: "The Notorious B.I.G." },
-      { title: "C.R.E.A.M.", artist: "Wu-Tang Clan" },
-      { title: "Nuthin' But a G Thang", artist: "Dr. Dre" },
-      { title: "Still D.R.E.", artist: "Dr. Dre" },
-      { title: "H to the Izzo", artist: "Jay-Z" },
-      { title: "New Slaves", artist: "Kanye West" },
-      { title: "Heard 'Em Say", artist: "Kanye West" },
-      { title: "Try Again", artist: "Aaliyah" },
-      { title: "Get Ur Freak On", artist: "Missy Elliott" },
-      { title: "Forgot About Dre", artist: "Dr. Dre" },
-      { title: "Hard Knock Life", artist: "Jay-Z" },
-      { title: "Around the World", artist: "Daft Punk" },
-      {title:"It Was a Good Day",artist:"Ice Cube"},{title:"Through the Wire",artist:"Kanye West"},
-      {title:"Power",artist:"Kanye West"},{title:"Devil in a New Dress",artist:"Kanye West ft. Rick Ross"},
-      {title:"Bound 2",artist:"Kanye West"},{title:"Touch the Sky",artist:"Kanye West ft. Lupe Fiasco"},
-      {title:"Shook Ones, Part II",artist:"Mobb Deep"},{title:"Paid in Full",artist:"Eric B. & Rakim"},
-      {title:"Mask Off",artist:"Future"},{title:"Nice for What",artist:"Drake"},
-      {title:"Money Trees",artist:"Kendrick Lamar ft. Jay Rock"},{title:"Lodi Dodi",artist:"Snoop Dogg"},
-      {title:"Otis",artist:"Jay-Z & Kanye West"},{title:"Runaway",artist:"Kanye West"},
-      {title:"All of the Lights",artist:"Kanye West"},{title:"Black Skinhead",artist:"Kanye West"},
-      {title:"Jesus Walks",artist:"Kanye West"},{title:"All Falls Down",artist:"Kanye West"},
-      {title:"March Madness",artist:"Future"},{title:"In My Feelings",artist:"Drake"},
-      {title:"Bitch, Don't Kill My Vibe",artist:"Kendrick Lamar"},{title:"Protect Ya Neck",artist:"Wu-Tang Clan"},
-      {title:"Big Poppa",artist:"The Notorious B.I.G."},{title:"Deep Cover",artist:"Dr. Dre & Snoop Dogg"},
-      {title:"Monster",artist:"Kanye West"},{title:"Gorgeous",artist:"Kanye West"},
-      {title:"Nuthin' but a 'G' Thang",artist:"Dr. Dre ft. Snoop Dogg"},
+      // Puzzle answers
+      {title:"Hotline Bling",artist:"Drake"},
+      {title:"Fight the Power",artist:"Public Enemy"},
+      {title:"Rapper's Delight",artist:"The Sugarhill Gang"},
+      {title:"U Can't Touch This",artist:"MC Hammer"},
+      {title:"California Love",artist:"2Pac ft. Dr. Dre"},
+      {title:"The World Is Yours",artist:"Nas"},
+      {title:"N.Y. State of Mind",artist:"Nas"},
+      {title:"Mo Money Mo Problems",artist:"The Notorious B.I.G."},
+      {title:"Harder, Better, Faster, Stronger",artist:"Daft Punk"},
+      {title:"Gin and Juice",artist:"Snoop Dogg"},
+      {title:"The Next Episode",artist:"Dr. Dre ft. Snoop Dogg"},
+      {title:"Gone",artist:"Kanye West ft. Otis Redding"},
+      {title:"Poetic Justice",artist:"Kendrick Lamar"},
+      {title:"Pop That",artist:"French Montana ft. Rick Ross"},
+      {title:"Big Pimpin'",artist:"Jay-Z ft. UGK"},
+      {title:"B.O.B. (Bombs Over Baghdad)",artist:"OutKast"},
+      {title:"Gangsta's Paradise",artist:"Coolio ft. L.V."},
+      {title:"Work It",artist:"Missy Elliott"},
+      {title:"Blood on the Leaves",artist:"Kanye West"},
+      {title:"Gold Digger",artist:"Kanye West ft. Jamie Foxx"},
+      {title:"It Was a Good Day",artist:"Ice Cube"},
+      {title:"Through the Wire",artist:"Kanye West"},
+      {title:"Stronger",artist:"Kanye West"},
+      {title:"Power",artist:"Kanye West"},
+      {title:"Devil in a New Dress",artist:"Kanye West ft. Rick Ross"},
+      {title:"Bound 2",artist:"Kanye West"},
+      {title:"Touch the Sky",artist:"Kanye West ft. Lupe Fiasco"},
+      {title:"C.R.E.A.M.",artist:"Wu-Tang Clan"},
+      {title:"Shook Ones, Part II",artist:"Mobb Deep"},
       {title:"Stan",artist:"Eminem ft. Dido"},
+      {title:"Nuthin' but a 'G' Thang",artist:"Dr. Dre ft. Snoop Dogg"},
+      {title:"Paid in Full",artist:"Eric B. & Rakim"},
+      {title:"Mask Off",artist:"Future"},
+      {title:"Nice for What",artist:"Drake"},
+      {title:"Money Trees",artist:"Kendrick Lamar ft. Jay Rock"},
+      {title:"Lodi Dodi",artist:"Snoop Dogg"},
+      {title:"Otis",artist:"Jay-Z & Kanye West"},
+      {title:"Juicy",artist:"The Notorious B.I.G."},
+      // Siblings (also sampled the source — near-miss targets)
+      {title:"Another One Bites the Dust",artist:"Queen"},
+      {title:"Jump to It",artist:"Aretha Franklin"},
+      {title:"Give It to Me Baby",artist:"Rick James"},
+      {title:"Pray",artist:"MC Hammer"},
+      {title:"Skeletons",artist:"Stevie Wonder"},
+      {title:"I Wish",artist:"Stevie Wonder"},
+      {title:"Upside Down",artist:"Diana Ross"},
+      {title:"Hypnotize",artist:"The Notorious B.I.G."},
+      {title:"Let's Get It On",artist:"Marvin Gaye"},
+      {title:"All Eyez on Me",artist:"2Pac"},
+      {title:"So Fresh, So Clean",artist:"OutKast"},
+      {title:"Human Nature",artist:"Michael Jackson"},
+      {title:"One Minute Man",artist:"Missy Elliott"},
+      {title:"In the Air Tonight",artist:"Phil Collins"},
+      {title:"Ain't No Half Steppin'",artist:"Big Daddy Kane"},
+      {title:"The Message",artist:"Grandmaster Flash"},
+      {title:"Soul Power",artist:"James Brown"},
+      {title:"Between the Sheets",artist:"The Isley Brothers"},
+      {title:"One More Chance",artist:"The Notorious B.I.G."},
+      {title:"Survival of the Fittest",artist:"Mobb Deep"},
+      {title:"Shook Ones, Part I",artist:"Mobb Deep"},
+      {title:"The Real Slim Shady",artist:"Eminem"},
+      {title:"The Way I Am",artist:"Eminem"},
+      {title:"Let Me Ride",artist:"Dr. Dre"},
+      {title:"I Know You Got Soul",artist:"Eric B. & Rakim"},
+      {title:"My Melody",artist:"Eric B. & Rakim"},
+      {title:"Low Life",artist:"Future ft. The Weeknd"},
+      {title:"Who Am I (What's My Name)?",artist:"Snoop Dogg"},
+      {title:"Children's Story",artist:"Slick Rick"},
+      {title:"No Church in the Wild",artist:"Jay-Z & Kanye West"},
+      {title:"Method Man",artist:"Wu-Tang Clan"},
+      {title:"Straight Outta Compton",artist:"N.W.A"},
+      {title:"Good Morning",artist:"Kanye West"},
+      {title:"Can't Tell Me Nothing",artist:"Kanye West"},
+      {title:"On Sight",artist:"Kanye West"},
+      {title:"Diamonds from Sierra Leone",artist:"Kanye West"},
+      {title:"Drive Slow",artist:"Kanye West"},
+      // Popular hip-hop — classic
+      {title:"Lose Yourself",artist:"Eminem"},
+      {title:"HUMBLE.",artist:"Kendrick Lamar"},
+      {title:"99 Problems",artist:"Jay-Z"},
+      {title:"In Da Club",artist:"50 Cent"},
+      {title:"Ms. Jackson",artist:"OutKast"},
+      {title:"No Role Modelz",artist:"J. Cole"},
+      {title:"Alright",artist:"Kendrick Lamar"},
+      {title:"Empire State of Mind",artist:"Jay-Z"},
+      {title:"Hard Knock Life",artist:"Jay-Z"},
+      {title:"H to the Izzo",artist:"Jay-Z"},
+      {title:"New Slaves",artist:"Kanye West"},
+      {title:"Heard 'Em Say",artist:"Kanye West"},
+      {title:"Get Ur Freak On",artist:"Missy Elliott"},
+      {title:"Forgot About Dre",artist:"Dr. Dre"},
+      {title:"Still D.R.E.",artist:"Dr. Dre"},
+      {title:"Nuthin' But a G Thang",artist:"Dr. Dre"},
+      {title:"Around the World",artist:"Daft Punk"},
+      {title:"Runaway",artist:"Kanye West"},
+      {title:"All of the Lights",artist:"Kanye West"},
+      {title:"Black Skinhead",artist:"Kanye West"},
+      {title:"Jesus Walks",artist:"Kanye West"},
+      {title:"All Falls Down",artist:"Kanye West"},
+      {title:"Protect Ya Neck",artist:"Wu-Tang Clan"},
+      {title:"Big Poppa",artist:"The Notorious B.I.G."},
+      {title:"Deep Cover",artist:"Dr. Dre & Snoop Dogg"},
+      {title:"Monster",artist:"Kanye West"},
+      {title:"Gorgeous",artist:"Kanye West"},
+      {title:"Swimming Pools",artist:"Kendrick Lamar"},
+      {title:"March Madness",artist:"Future"},
+      {title:"In My Feelings",artist:"Drake"},
+      {title:"Bitch, Don't Kill My Vibe",artist:"Kendrick Lamar"},
+      {title:"Regulate",artist:"Warren G ft. Nate Dogg"},
+      {title:"Jump Around",artist:"House of Pain"},
+      {title:"Hypnotize",artist:"The Notorious B.I.G."},
+      {title:"Drop It Like It's Hot",artist:"Snoop Dogg"},
+      {title:"Changes",artist:"2Pac"},
+      {title:"Dear Mama",artist:"2Pac"},
+      {title:"Hit 'Em Up",artist:"2Pac"},
+      {title:"Electric Relaxation",artist:"A Tribe Called Quest"},
+      {title:"Can I Kick It?",artist:"A Tribe Called Quest"},
+      {title:"Scenario",artist:"A Tribe Called Quest"},
+      {title:"Passin' Me By",artist:"The Pharcyde"},
+      {title:"Rebirth of Slick",artist:"Digable Planets"},
+      {title:"93 'til Infinity",artist:"Souls of Mischief"},
+      {title:"Mass Appeal",artist:"Gang Starr"},
+      {title:"Planet Rock",artist:"Afrika Bambaataa"},
+      {title:"Express Yourself",artist:"N.W.A"},
+      {title:"It Takes Two",artist:"Rob Base & DJ E-Z Rock"},
+      {title:"Ruff Ryders' Anthem",artist:"DMX"},
+      {title:"Da Rockwilder",artist:"Method Man & Redman"},
+      {title:"Shimmy Shimmy Ya",artist:"Ol' Dirty Bastard"},
+      // Popular hip-hop — modern
+      {title:"Sicko Mode",artist:"Travis Scott"},
+      {title:"God's Plan",artist:"Drake"},
+      {title:"Old Town Road",artist:"Lil Nas X"},
+      {title:"Formation",artist:"Beyoncé"},
+      {title:"DNA.",artist:"Kendrick Lamar"},
+      {title:"King Kunta",artist:"Kendrick Lamar"},
+      {title:"LOYALTY.",artist:"Kendrick Lamar"},
+      {title:"Backseat Freestyle",artist:"Kendrick Lamar"},
+      {title:"m.A.A.d city",artist:"Kendrick Lamar"},
+      {title:"Started From the Bottom",artist:"Drake"},
+      {title:"Headlines",artist:"Drake"},
+      {title:"Take Care",artist:"Drake ft. Rihanna"},
+      {title:"Marvins Room",artist:"Drake"},
+      {title:"One Dance",artist:"Drake"},
+      {title:"Passionfruit",artist:"Drake"},
+      {title:"Nonstop",artist:"Drake"},
+      {title:"Life Is Good",artist:"Future ft. Drake"},
+      {title:"Panda",artist:"Desiigner"},
+      {title:"Bad and Boujee",artist:"Migos"},
+      {title:"XO Tour Llif3",artist:"Lil Uzi Vert"},
+      {title:"Congratulations",artist:"Post Malone"},
+      {title:"Rockstar",artist:"Post Malone"},
+      {title:"Bodak Yellow",artist:"Cardi B"},
+      {title:"Mo Bamba",artist:"Sheck Wes"},
+      {title:"Middle Child",artist:"J. Cole"},
+      {title:"Wet Dreamz",artist:"J. Cole"},
+      {title:"A Lot",artist:"21 Savage"},
+      {title:"Bank Account",artist:"21 Savage"},
+      {title:"Savage",artist:"Megan Thee Stallion"},
+      {title:"Industry Baby",artist:"Lil Nas X"},
+      {title:"Sunflower",artist:"Post Malone & Swae Lee"},
+      {title:"Lucid Dreams",artist:"Juice WRLD"},
+      {title:"SAD!",artist:"XXXTENTACION"},
+      {title:"Goosebumps",artist:"Travis Scott"},
+      {title:"HIGHEST IN THE ROOM",artist:"Travis Scott"},
+      {title:"Praise the Lord",artist:"A$AP Rocky"},
+      {title:"L$D",artist:"A$AP Rocky"},
+      {title:"Magnolia",artist:"Playboi Carti"},
+      {title:"Pick Up the Phone",artist:"Young Thug"},
+      // R&B / Pop / Electronic
+      {title:"Blinding Lights",artist:"The Weeknd"},
+      {title:"Save Your Tears",artist:"The Weeknd"},
+      {title:"Starboy",artist:"The Weeknd"},
+      {title:"Can't Feel My Face",artist:"The Weeknd"},
+      {title:"Redbone",artist:"Childish Gambino"},
+      {title:"This Is America",artist:"Childish Gambino"},
+      {title:"Crazy in Love",artist:"Beyoncé"},
+      {title:"Drunk in Love",artist:"Beyoncé"},
+      {title:"Try Again",artist:"Aaliyah"},
+      {title:"Love Lockdown",artist:"Kanye West"},
+      {title:"Heartless",artist:"Kanye West"},
+      {title:"Flashing Lights",artist:"Kanye West"},
+      {title:"Ultralight Beam",artist:"Kanye West"},
+      {title:"Father Stretch My Hands",artist:"Kanye West"},
+      {title:"Ghost Town",artist:"Kanye West"},
+      {title:"Fade",artist:"Kanye West"},
+      {title:"Good Life",artist:"Kanye West"},
+      {title:"Roses",artist:"Kanye West"},
+      {title:"Spaceship",artist:"Kanye West"},
+      {title:"Family Business",artist:"Kanye West"},
+      // Sample-based classics & misc
+      {title:"Juicy Fruit",artist:"Mtume"},
+      {title:"La Di Da Di",artist:"Doug E. Fresh & Slick Rick"},
+      {title:"Apache",artist:"Incredible Bongo Band"},
+      {title:"Impeach the President",artist:"The Honey Drippers"},
+      {title:"Think (About It)",artist:"Lyn Collins"},
+      {title:"Funky Drummer",artist:"James Brown"},
+      {title:"Amen, Brother",artist:"The Winstons"},
+      {title:"Good Times",artist:"Chic"},
+      {title:"I Got a Woman",artist:"Ray Charles"},
+      {title:"Walk This Way",artist:"Run-D.M.C."},
+      {title:"Peter Piper",artist:"Run-D.M.C."},
+      {title:"Hey Ya!",artist:"OutKast"},
+      {title:"Rosa Parks",artist:"OutKast"},
+      {title:"Aquemini",artist:"OutKast"},
+      {title:"SpottieOttieDopaliscious",artist:"OutKast"},
+      {title:"Return of the Mack",artist:"Mark Morrison"},
+      {title:"No Diggity",artist:"Blackstreet"},
+      {title:"Doo Wop (That Thing)",artist:"Lauryn Hill"},
+      {title:"Everything Is Everything",artist:"Lauryn Hill"},
+      {title:"Killing Me Softly",artist:"Fugees"},
+      {title:"Ready or Not",artist:"Fugees"},
+      {title:"If I Ruled the World",artist:"Nas"},
+      {title:"One Mic",artist:"Nas"},
+      {title:"It Ain't Hard to Tell",artist:"Nas"},
+      {title:"Ether",artist:"Nas"},
+      {title:"Izzo (H.O.V.A.)",artist:"Jay-Z"},
+      {title:"Dirt Off Your Shoulder",artist:"Jay-Z"},
+      {title:"Encore",artist:"Jay-Z"},
+      {title:"Run This Town",artist:"Jay-Z"},
+      {title:"Triumph",artist:"Wu-Tang Clan"},
+      {title:"Gravel Pit",artist:"Wu-Tang Clan"},
+      {title:"Wu-Tang Clan Ain't Nuthing ta F' Wit",artist:"Wu-Tang Clan"},
+      {title:"Without Me",artist:"Eminem"},
+      {title:"My Name Is",artist:"Eminem"},
+      {title:"Rap God",artist:"Eminem"},
+      {title:"Cleanin' Out My Closet",artist:"Eminem"},
+      {title:"Many Men",artist:"50 Cent"},
+      {title:"P.I.M.P.",artist:"50 Cent"},
+      {title:"Candy Shop",artist:"50 Cent"},
+      {title:"International Players Anthem",artist:"UGK"},
+      {title:"Mind Playing Tricks on Me",artist:"Geto Boys"},
+      {title:"Ridin'",artist:"Chamillionaire"},
+      {title:"Ante Up",artist:"M.O.P."},
+      {title:"Put It On",artist:"Big L"},
+      {title:"Ambitionz Az a Ridah",artist:"2Pac"},
+      {title:"I Get Around",artist:"2Pac"},
+      {title:"Who Shot Ya?",artist:"The Notorious B.I.G."},
+      {title:"Ten Crack Commandments",artist:"The Notorious B.I.G."},
+      {title:"Warning",artist:"The Notorious B.I.G."},
+      {title:"Sky's the Limit",artist:"The Notorious B.I.G."},
     ];
 
     const FREQS = [
@@ -791,6 +1008,7 @@ export default function Home() {
         correct: boolean;
         skipped: boolean;
         label?: string;
+        nearMiss?: boolean;
       }[],
       input: "",
       suggestions: [] as { title: string; artist: string }[],
@@ -800,10 +1018,15 @@ export default function Home() {
       isPlaying: false,
       activeBar: -1,
       loaded: false,
+      hint1Used: false,
       hintUsed: false,
       genreUsed: false,
       siblingsUsed: false,
     };
+
+    function countUsedGuesses() {
+      return state.guesses.filter((g) => !g.nearMiss).length;
+    }
 
     const DIFFICULTY_TIERS = [
       [0, 1, 2],
@@ -843,6 +1066,7 @@ export default function Home() {
         state.gameOver = data.gameOver || false;
         state.won = data.won || false;
         state.playsLeft = data.playsLeft !== undefined ? data.playsLeft : 3;
+        state.hint1Used = data.hint1Used || false;
         state.hintUsed = data.hintUsed || false;
         state.genreUsed = data.genreUsed || false;
         state.siblingsUsed = data.siblingsUsed || false;
@@ -862,6 +1086,7 @@ export default function Home() {
             gameOver: state.gameOver,
             won: state.won,
             playsLeft: state.playsLeft,
+            hint1Used: state.hint1Used,
             hintUsed: state.hintUsed,
             genreUsed: state.genreUsed,
             siblingsUsed: state.siblingsUsed,
@@ -1097,6 +1322,8 @@ export default function Home() {
         const g = state.guesses[i];
         if (g.skipped) {
           rows += `<div class="guess-row"><div class="guess-tile skipped">— ${g.label || "skipped"} —</div></div>`;
+        } else if (g.nearMiss) {
+          rows += `<div class="guess-row"><div class="guess-tile near-miss">"${g.title}" <span style="font-weight:400;opacity:.8">— also samples this! ✓</span></div></div>`;
         } else {
           const cls = g.correct ? "correct" : "wrong";
           rows += `<div class="guess-row"><div class="guess-tile ${cls}">"${g.title}" <span style="font-weight:400;opacity:.8">— ${g.artist}</span></div></div>`;
@@ -1105,6 +1332,10 @@ export default function Home() {
 
       const genreHTML = state.genreUsed
         ? `<div class="hint-box">Genre: ${puzzle.genre}</div>`
+        : "";
+
+      const hint1HTML = state.hint1Used
+        ? `<div class="hint-box">${puzzle.hint1}</div>`
         : "";
 
       const hintHTML = state.hintUsed
@@ -1145,8 +1376,9 @@ export default function Home() {
               .join("")}</div>`
           : "";
 
-      const canGuess = state.guesses.length < MAX_GUESSES;
-      const gNum = state.guesses.length + 1;
+      const used = countUsedGuesses();
+      const canGuess = used < MAX_GUESSES;
+      const gNum = used + 1;
 
       return `
         <div class="player-card">
@@ -1187,10 +1419,11 @@ export default function Home() {
             canGuess
               ? `
             ${genreHTML}
+            ${hint1HTML}
             ${hintHTML}
             ${siblingsHTML}
             <div class="input-area">
-              <div class="guesses-remaining">${MAX_GUESSES - state.guesses.length} guess${MAX_GUESSES - state.guesses.length === 1 ? "" : "es"} remaining</div>
+              <div class="guesses-remaining">${MAX_GUESSES - used} guess${MAX_GUESSES - used === 1 ? "" : "es"} remaining</div>
               <div class="input-wrap">
                 <input class="song-input" id="song-input" type="text" placeholder="Type a song name..." value="${state.input.replace(/"/g, "&quot;")}" autocomplete="off" enterkeyhint="go"/>
               </div>
@@ -1198,7 +1431,7 @@ export default function Home() {
               <div class="btn-row">
               <button class="btn primary" id="guess-btn">Guess #${gNum}</button>
               ${!state.genreUsed ? `<button class="btn skip" id="genre-btn">Genre</button>` : ""}
-              ${!state.hintUsed ? `<button class="btn skip" id="hint-btn">Hint</button>` : ""}
+              ${!state.hint1Used ? `<button class="btn skip" id="hint1-btn">Hint</button>` : !state.hintUsed ? `<button class="btn skip" id="hint-btn">Hint 2</button>` : ""}
               ${!state.siblingsUsed ? `<button class="btn skip" id="siblings-btn">Related</button>` : ""}
               </div>
             </div>
@@ -1210,7 +1443,7 @@ export default function Home() {
 
     function buildResult() {
       const numG = state.won
-        ? state.guesses.findIndex((g) => g.correct) + 1
+        ? state.guesses.filter((g) => !g.nearMiss).findIndex((g) => g.correct) + 1
         : null;
       const resultIcons: Record<number, string> = {
         1: "🎯",
@@ -1226,7 +1459,8 @@ export default function Home() {
         ? `Identified in ${numG} guess${numG === 1 ? "" : "es"}`
         : `The answer was "${puzzle.answer.title}"`;
 
-      const dots = state.guesses
+      const realGuesses = state.guesses.filter((g) => !g.nearMiss);
+      const dots = realGuesses
         .map((g) =>
           g.correct
             ? `<div class="dot correct"></div>`
@@ -1235,7 +1469,11 @@ export default function Home() {
               : `<div class="dot wrong"></div>`,
         )
         .join("");
-      const unused = Array(MAX_GUESSES - state.guesses.length)
+      const nearMissDots = state.guesses
+        .filter((g) => g.nearMiss)
+        .map(() => `<div class="dot near-miss"></div>`)
+        .join("");
+      const unused = Array(MAX_GUESSES - realGuesses.length)
         .fill(`<div class="dot unused"></div>`)
         .join("");
 
@@ -1265,7 +1503,7 @@ export default function Home() {
             <div class="result-icon">${icon}</div>
             <div class="result-title">${title}</div>
             <div class="result-sub">${sub}</div>
-            <div class="dots-row">${dots}${unused}</div>
+            <div class="dots-row">${dots}${unused}${nearMissDots ? `<span class="near-miss-dots">${nearMissDots}</span>` : ""}</div>
           </div>
           <div class="answer-flow">
             <div class="answer-card">
@@ -1316,15 +1554,20 @@ export default function Home() {
     }
 
     function buildShareText() {
-      const n = state.won ? state.guesses.findIndex((g) => g.correct) + 1 : "X";
-      const icons = state.guesses
+      const realGuesses = state.guesses.filter((g) => !g.nearMiss);
+      const n = state.won
+        ? realGuesses.findIndex((g) => g.correct) + 1
+        : "X";
+      const icons = realGuesses
         .map((g) => (g.correct ? "🟩" : g.skipped ? "⬜" : "🟥"))
         .join("");
-      const unused = Array(MAX_GUESSES - state.guesses.length)
+      const nearMissCount = state.guesses.filter((g) => g.nearMiss).length;
+      const nearMissIcons = nearMissCount > 0 ? " " + "🟨".repeat(nearMissCount) : "";
+      const unused = Array(MAX_GUESSES - realGuesses.length)
         .fill("⬛")
         .join("");
       const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-      return `Sampledle (${days[new Date().getDay()]})\n"${puzzle.source.title}" → ?\n${icons}${unused}\n${n}/${MAX_GUESSES}\nPlay at: ${window.location.href}`;
+      return `Sampledle (${days[new Date().getDay()]})\n"${puzzle.source.title}" → ?\n${icons}${unused}${nearMissIcons}\n${n}/${MAX_GUESSES}\nPlay at: ${window.location.href}`;
     }
 
     function attachEvents() {
@@ -1356,7 +1599,7 @@ export default function Home() {
                   (s) =>
                     s.title.toLowerCase().includes(state.input.toLowerCase()) ||
                     s.artist.toLowerCase().includes(state.input.toLowerCase()),
-                ).slice(0, 5)
+                ).slice(0, 8)
               : [];
           render();
           const ni = document.getElementById(
@@ -1394,7 +1637,27 @@ export default function Home() {
             skipped: true,
             label: "used genre",
           });
-          if (state.guesses.length >= MAX_GUESSES) {
+          if (countUsedGuesses() >= MAX_GUESSES) {
+            state.gameOver = true;
+            state.won = false;
+            updateStreak(false);
+          }
+          saveState();
+          render();
+        };
+
+      const h1b = document.getElementById("hint1-btn");
+      if (h1b)
+        h1b.onclick = () => {
+          state.hint1Used = true;
+          state.guesses.push({
+            title: "",
+            artist: "",
+            correct: false,
+            skipped: true,
+            label: "used hint 1",
+          });
+          if (countUsedGuesses() >= MAX_GUESSES) {
             state.gameOver = true;
             state.won = false;
             updateStreak(false);
@@ -1412,9 +1675,9 @@ export default function Home() {
             artist: "",
             correct: false,
             skipped: true,
-            label: "used hint",
+            label: "used hint 2",
           });
-          if (state.guesses.length >= MAX_GUESSES) {
+          if (countUsedGuesses() >= MAX_GUESSES) {
             state.gameOver = true;
             state.won = false;
             updateStreak(false);
@@ -1434,7 +1697,7 @@ export default function Home() {
             skipped: true,
             label: "used related",
           });
-          if (state.guesses.length >= MAX_GUESSES) {
+          if (countUsedGuesses() >= MAX_GUESSES) {
             state.gameOver = true;
             state.won = false;
             updateStreak(false);
@@ -1499,6 +1762,7 @@ export default function Home() {
             isPlaying: false,
             activeBar: -1,
             loaded: true,
+            hint1Used: false,
             hintUsed: false,
             genreUsed: false,
             siblingsUsed: false,
@@ -1671,11 +1935,17 @@ export default function Home() {
         (s) => s.title.toLowerCase() === title.toLowerCase(),
       ) || { title, artist: "Unknown" };
       const correct = title.toLowerCase() === puzzle.answer.title.toLowerCase();
+      const isSibling =
+        !correct &&
+        puzzle.siblings.some(
+          (s) => s.title.toLowerCase() === title.toLowerCase(),
+        );
       state.guesses.push({
         title: match.title,
         artist: match.artist,
         correct,
         skipped: false,
+        nearMiss: isSibling || undefined,
       });
       state.input = "";
       state.suggestions = [];
@@ -1683,7 +1953,7 @@ export default function Home() {
         state.gameOver = true;
         state.won = true;
         updateStreak(true);
-      } else if (state.guesses.length >= MAX_GUESSES) {
+      } else if (!isSibling && countUsedGuesses() >= MAX_GUESSES) {
         state.gameOver = true;
         state.won = false;
         updateStreak(false);

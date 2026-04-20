@@ -167,6 +167,10 @@ main { width: 100%; max-width: 560px; }
 .guess-tile.correct { background: var(--green-bg); border-color: var(--green-border); color: var(--green-text); }
 .guess-tile.wrong { color: var(--text3); text-decoration: line-through; }
 .guess-tile.skipped { color: var(--text3); font-style: italic; }
+.guess-tile.near-miss { background: #fef3c7; border-color: #f59e0b; color: #92400e; }
+@media (prefers-color-scheme: dark) {
+  .guess-tile.near-miss { background: rgba(245,158,11,.15); border-color: rgba(245,158,11,.4); color: #fbbf24; }
+}
 
 .hint-box {
   background: var(--info-bg); border: 0.5px solid var(--info-border);
@@ -265,6 +269,8 @@ main { width: 100%; max-width: 560px; }
 .dot.wrong { background: var(--border2); }
 .dot.skipped { background: var(--border); }
 .dot.unused { background: var(--border); opacity: .35; }
+.dot.near-miss { background: #f59e0b; }
+.near-miss-dots { display: inline-flex; gap: 6px; margin-left: 8px; opacity: .7; }
 
 .answer-flow { margin-bottom: 20px; }
 .answer-card {
