@@ -501,7 +501,7 @@ export default function VideogaddlePage() {
       html += "</div>";
 
       html += '<div class="share-row">';
-      html += '<button class="share-btn" id="r-share-btn">Share Results</button>';
+      html += '<button class="share-btn" id="r-share-btn">Copy result</button>';
       html += "</div>";
 
       html += "</div>";
@@ -771,35 +771,26 @@ export default function VideogaddlePage() {
         (Date.now() - new Date("2026-04-18T00:00:00Z").getTime()) / (1000 * 60 * 60 * 24),
       ) + 1;
 
-      const chain = [puzzle.startWord, ...puzzle.steps.map((s) => s.answer)].join(" → ");
       const emojis = puzzle.steps.map((_, i) => getStepEmoji(state.hintsUsed[i])).join("");
       const score = totalScore();
       const max = maxScore();
 
       const text = [
         `🎮 Videogaddle — Day #${dayNum} (${diffLabels[diff]})`,
-        chain,
         `${emojis} — ${score}/${max}`,
         "",
         "sampledle.vercel.app/videogaddle",
       ].join("\n");
 
-      if (navigator.share) {
-        navigator.share({ text }).catch(() => {
-          navigator.clipboard.writeText(text);
-          flashShareBtn("Copied!");
-        });
-      } else {
-        navigator.clipboard.writeText(text).then(() => flashShareBtn("Copied!"));
-      }
-    }
-
-    function flashShareBtn(msg: string) {
-      const btn = document.getElementById("r-share-btn");
-      if (!btn) return;
-      const orig = btn.textContent;
-      btn.textContent = msg;
-      setTimeout(() => { btn.textContent = orig; }, 2000);
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById("r-share-btn");
+        if (!btn) return;
+        btn.textContent = "Copied! ✓";
+        setTimeout(() => {
+          const el = document.getElementById("r-share-btn");
+          if (el) el.textContent = "Copy result";
+        }, 2000);
+      });
     }
 
     function renderStreak() {
