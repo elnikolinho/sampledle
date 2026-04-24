@@ -1973,6 +1973,9 @@ export default function Home() {
         <div className="logo">
           Sample<span>dle</span>
         </div>
+        <div className="nav-links">
+          <a href="/videogaddle" className="nav-link">Videogaddle</a>
+        </div>
         <div className="streak" id="streak-display"></div>
       </nav>
       <main>
