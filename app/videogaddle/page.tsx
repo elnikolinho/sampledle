@@ -9,7 +9,7 @@ export default function VideogaddlePage() {
     if (initialized.current) return;
     initialized.current = true;
 
-    const STORAGE_KEY = "videogaddle_state_v3";
+    const STORAGE_KEY = "videogaddle_state_v4";
     const STREAK_KEY = "videogaddle_streak";
 
     interface PuzzleStep {
@@ -24,45 +24,45 @@ export default function VideogaddlePage() {
     }
 
     const PUZZLES: Puzzle[] = [
-      // ── 0  Easy · 3 steps · spelling ──
+      // ── 0  Easy · 3 steps ──
       {
         startWord: "STAR",
         startDesc: "Mario's invincibility power-up",
         steps: [
-          { answer: "RATS", clue: "Read backwards — vermin in sewer levels" },
-          { answer: "ARTS", clue: "Rearrange — what pixel creators study" },
-          { answer: "KARTS", clue: "Add a letter — Mario's racing vehicles" },
+          { answer: "RATS", clue: "Rearrange — Sewer-dwelling pests" },
+          { answer: "ARTS", clue: "Rearrange — What sprite designers major in" },
+          { answer: "KARTS", clue: "Add a letter — Mario's racing machines" },
         ],
       },
-      // ── 1  Easy · 3 steps · spelling ──
+      // ── 1  Easy · 3 steps ──
       {
         startWord: "BONUS",
         startDesc: "The extra stage after the credits",
         steps: [
-          { answer: "BONES", clue: "Swap a letter — what skeleton enemies drop" },
-          { answer: "TONES", clue: "Change a letter — rhythm game building blocks" },
-          { answer: "NOTES", clue: "Rearrange — what Guitar Hero charts display" },
+          { answer: "BONES", clue: "Change a letter — What skeleton enemies leave behind" },
+          { answer: "TONES", clue: "Change a letter — What rhythm games are built on" },
+          { answer: "NOTES", clue: "Rearrange — What scrolls down the Guitar Hero highway" },
         ],
       },
-      // ── 2  Easy · 4 steps · spelling ──
+      // ── 2  Easy · 4 steps ──
       {
         startWord: "FAST",
         startDesc: "What Sonic always has to go",
         steps: [
-          { answer: "FIST", clue: "Change a letter — a melee weapon type" },
-          { answer: "FISH", clue: "Change the last letter — a common minigame catch" },
-          { answer: "DISH", clue: "Change the first letter — revenge is best served on one" },
-          { answer: "DASH", clue: "Change a letter — Geometry ___: a rhythm platformer" },
+          { answer: "FIST", clue: "Change a letter — An empty-handed weapon" },
+          { answer: "FISH", clue: "Change a letter — Every fishing minigame's prize" },
+          { answer: "DISH", clue: "Change a letter — Best served cold, on one of these" },
+          { answer: "DASH", clue: "Change a letter — Geometry ___" },
         ],
       },
-      // ── 3  Easy · 4 steps · spelling ──
+      // ── 3  Easy · 4 steps ──
       {
         startWord: "LINK",
         startDesc: "Hyrule's hero (not Zelda)",
         steps: [
-          { answer: "RINK", clue: "Change the first letter — where ice-themed minigames take place" },
-          { answer: "RING", clue: "Change the last letter — what boxing games happen in" },
-          { answer: "KING", clue: "Change the first letter — the title Bowser claims for himself" },
+          { answer: "RINK", clue: "Change a letter — Where ice-themed minigames play out" },
+          { answer: "RING", clue: "Change a letter — Where boxing matches go down" },
+          { answer: "KING", clue: "Change a letter — The title Bowser claims" },
           { answer: "KONG", clue: "Change a letter — Nintendo's barrel-throwing ape" },
         ],
       },
@@ -71,21 +71,21 @@ export default function VideogaddlePage() {
         startWord: "FIRE",
         startDesc: "Every mage's starter spell",
         steps: [
-          { answer: "FLOWER", clue: "Combine with a word to make — Mario's pyro power-up" },
-          { answer: "POT", clue: "Combine with a word to make — where Piranha Plants live" },
-          { answer: "SHOT", clue: "Combine with a word to make — a camper's lucky kill from spawn" },
-          { answer: "GUN", clue: "Combine with a word to make — the Doom Slayer's go-to weapon type" },
+          { answer: "FLOWER", clue: "Combine words — Mario's pyro power-up" },
+          { answer: "POT", clue: "Combine words — A gardener's clay vessel" },
+          { answer: "SHOT", clue: "Combine words — A camper's lucky kill from spawn" },
+          { answer: "GUN", clue: "Combine words — The Doom Slayer's trusty companion" },
         ],
       },
-      // ── 5  Medium · 4 steps · spelling ──
+      // ── 5  Medium · 4 steps ──
       {
         startWord: "BOSS",
         startDesc: "The big bad at the end of each stage",
         steps: [
-          { answer: "LOSS", clue: "Swap a letter — what Elden Ring hands you constantly" },
-          { answer: "LOST", clue: "Change a letter — how roguelike heroes end up" },
-          { answer: "LOOT", clue: "Swap a letter — what drops when the enemy falls" },
-          { answer: "BOOT", clue: "Change a letter — how you start up a console" },
+          { answer: "LOSS", clue: "Change a letter — Elden Ring's favorite gift to players" },
+          { answer: "LOST", clue: "Change a letter — Every roguelike hero's final status" },
+          { answer: "LOOT", clue: "Change a letter — The real endgame in any Diablo clone" },
+          { answer: "BOOT", clue: "Change a letter — What you do to a console at startup" },
         ],
       },
       // ── 6  Medium · 4 steps · sound + compound chain ──
@@ -93,21 +93,21 @@ export default function VideogaddlePage() {
         startWord: "KNIGHT",
         startDesc: "A medieval class in every RPG",
         steps: [
-          { answer: "NIGHT", clue: "Sounds the same — when survival horror gets darkest" },
-          { answer: "FALL", clue: "Combine with a word to make — when the sun sets on Destiny" },
-          { answer: "OUT", clue: "Combine with a word to make — Bethesda's wasteland series" },
-          { answer: "RUN", clue: "Combine with a word to make — SEGA's classic arcade racer" },
+          { answer: "NIGHT", clue: "Sounds the same — When survival horror peaks" },
+          { answer: "FALL", clue: "Combine words — Destiny's twilight expansion" },
+          { answer: "OUT", clue: "Combine words — Bethesda's wasteland series" },
+          { answer: "RUN", clue: "Combine words — SEGA's classic arcade racer" },
         ],
       },
-      // ── 7  Medium · 4 steps · spelling ──
+      // ── 7  Medium · 4 steps ──
       {
         startWord: "HERO",
         startDesc: "Every game's protagonist",
         steps: [
-          { answer: "HERD", clue: "Change the last letter — what a group of Chocobos is" },
-          { answer: "HARD", clue: "Change a letter — the toughest difficulty setting" },
-          { answer: "CARD", clue: "Change the first letter — what TCG players collect" },
-          { answer: "CART", clue: "Change the last letter — what retro Nintendo games came on" },
+          { answer: "HERD", clue: "Change a letter — What a group of Chocobos makes" },
+          { answer: "HARD", clue: "Change a letter — The difficulty that makes you rage-quit" },
+          { answer: "CARD", clue: "Change a letter — What TCG players hoard" },
+          { answer: "CART", clue: "Change a letter — What retro Nintendo games came on" },
         ],
       },
       // ── 8  Medium-hard · 4 steps · compound chain ──
@@ -115,81 +115,228 @@ export default function VideogaddlePage() {
         startWord: "END",
         startDesc: "Where the credits roll",
         steps: [
-          { answer: "GAME", clue: "Combine with a word to make — the final phase of every strategy match" },
-          { answer: "OVER", clue: "Combine with a word to make — what the screen says when you lose" },
-          { answer: "WATCH", clue: "Combine with a word to make — Blizzard's hero shooter" },
-          { answer: "DOGS", clue: "Combine with a word to make — Ubisoft's hacking open-world series" },
+          { answer: "GAME", clue: "Combine words — Every strategy match's final phase" },
+          { answer: "OVER", clue: "Combine words — What the screen says when you die" },
+          { answer: "WATCH", clue: "Combine words — Blizzard's hero shooter" },
+          { answer: "DOGS", clue: "Combine words — Ubisoft's hacking open-world series" },
         ],
       },
-      // ── 9  Medium-hard · 4 steps · spelling ──
+      // ── 9  Medium-hard · 4 steps ──
       {
         startWord: "CRAFT",
         startDesc: "Mine, build, survive, repeat",
         steps: [
-          { answer: "DRAFT", clue: "Change a letter — what TCG players do to build a deck" },
-          { answer: "DRIFT", clue: "Swap a letter — racing sideways through a turn" },
-          { answer: "GRIFT", clue: "Change a letter — the rogue class's favorite hustle" },
-          { answer: "GIFT", clue: "Drop a letter — what every loot box promises" },
+          { answer: "DRAFT", clue: "Change a letter — Building a deck from random packs" },
+          { answer: "DRIFT", clue: "Change a letter — Sliding sideways through a hairpin" },
+          { answer: "GRIFT", clue: "Change a letter — A con artist's specialty" },
+          { answer: "GIFT", clue: "Drop a letter — What a loot box pretends to be" },
         ],
       },
-      // ── 10  Hard · 5 steps · spelling ──
+      // ── 10  Hard · 5 steps ──
       {
         startWord: "WARP",
         startDesc: "Mario's pipe shortcut",
         steps: [
-          { answer: "WAR", clue: "Drop a letter — it never changes, says Fallout" },
-          { answer: "WARD", clue: "Add a letter — a paladin's protective magic" },
-          { answer: "WAND", clue: "Swap a letter — a wizard's spell-channeling tool" },
-          { answer: "LAND", clue: "Change a letter — the open world beneath your feet" },
-          { answer: "LANE", clue: "Change the last letter — a path on a MOBA map" },
+          { answer: "WAR", clue: "Drop a letter — It never changes, says Fallout" },
+          { answer: "WARD", clue: "Add a letter — A paladin's protective aura" },
+          { answer: "WAND", clue: "Change a letter — A wizard's spell-channeling tool" },
+          { answer: "LAND", clue: "Change a letter — The open world beneath your feet" },
+          { answer: "LANE", clue: "Change a letter — A path on a MOBA map" },
         ],
       },
-      // ── 11  Hard · 5 steps · spelling ──
+      // ── 11  Hard · 5 steps ──
       {
         startWord: "CHEST",
         startDesc: "Loot inside, mimics optional",
         steps: [
-          { answer: "CHEAT", clue: "Swap a letter — what frustrated gamers type into the console" },
-          { answer: "HEAT", clue: "Drop a letter — the burn from a fire spell" },
-          { answer: "HEAL", clue: "Change a letter — a cleric's signature ability" },
-          { answer: "REAL", clue: "Swap a letter — what VR strives to make things feel" },
-          { answer: "REALM", clue: "Add a letter — any fantasy RPG's kingdom" },
+          { answer: "CHEAT", clue: "Change a letter — IDDQD, for example" },
+          { answer: "HEAT", clue: "Drop a letter — What fire spells bring" },
+          { answer: "HEAL", clue: "Change a letter — A white mage's bread and butter" },
+          { answer: "REAL", clue: "Change a letter — What VR aims to feel" },
+          { answer: "REALM", clue: "Add a letter — A fantasy kingdom" },
         ],
       },
-      // ── 12  Hard · 5 steps · spelling ──
+      // ── 12  Hard · 5 steps ──
       {
         startWord: "SPACE",
         startDesc: "Where Invaders come from",
         steps: [
-          { answer: "SPARE", clue: "Change a letter — an extra life, or parts left over" },
-          { answer: "SPORE", clue: "Change a letter — Will Wright's evolution sim" },
-          { answer: "STORE", clue: "Change a letter — where you spend your gold in any RPG" },
-          { answer: "STONE", clue: "Change a letter — a Pokémon evolution item (Thunder___, Fire___)" },
-          { answer: "TONE", clue: "Drop the first letter — what rhythm games are built on" },
+          { answer: "SPARE", clue: "Change a letter — An extra life" },
+          { answer: "SPORE", clue: "Change a letter — Wright's evolution sandbox" },
+          { answer: "STORE", clue: "Change a letter — Where gold goes to die" },
+          { answer: "STONE", clue: "Change a letter — Thunder___, Fire___, Water___" },
+          { answer: "TONE", clue: "Drop a letter — A rhythm game's foundation" },
         ],
       },
-      // ── 13  Hard · 5 steps · spelling ──
+      // ── 13  Hard · 5 steps ──
       {
         startWord: "SPAWN",
         startDesc: "Where you appear when you enter the server",
         steps: [
-          { answer: "PAWN", clue: "Drop a letter — the sacrificial chess piece" },
-          { answer: "DAWN", clue: "Swap a letter — when Animal Crossing starts a new day" },
-          { answer: "DRAWN", clue: "Add a letter — what a bowstring is after pulling" },
-          { answer: "DRAIN", clue: "Swap a letter — what vampires do to your HP" },
-          { answer: "TRAIN", clue: "Change a letter — how you level up Pokémon" },
+          { answer: "PAWN", clue: "Drop a letter — The sacrificial chess piece" },
+          { answer: "DAWN", clue: "Change a letter — When Animal Crossing resets" },
+          { answer: "DRAWN", clue: "Add a letter — What a bowstring is before release" },
+          { answer: "DRAIN", clue: "Change a letter — What vampires do to your HP" },
+          { answer: "TRAIN", clue: "Change a letter — How you level up Pokémon" },
+        ],
+      },
+      // ── 14  Easy · 3 steps ──
+      {
+        startWord: "CRASH",
+        startDesc: "Bandicoot's first name",
+        steps: [
+          { answer: "CLASH", clue: "Change a letter — Royale, or of Clans" },
+          { answer: "FLASH", clue: "Change a letter — The platform that powered browser games" },
+          { answer: "FLASK", clue: "Change a letter — What you sip to heal in Dark Souls" },
+        ],
+      },
+      // ── 15  Easy · 3 steps ──
+      {
+        startWord: "SEGA",
+        startDesc: "The company behind the Genesis",
+        steps: [
+          { answer: "SAGE", clue: "Rearrange — The wise NPC who sends you on your quest" },
+          { answer: "MAGE", clue: "Change a letter — The spell-casting class" },
+          { answer: "MAZE", clue: "Change a letter — Every dungeon's favorite layout" },
+        ],
+      },
+      // ── 16  Easy · 3 steps · compound chain ──
+      {
+        startWord: "SPEED",
+        startDesc: "What every racer craves",
+        steps: [
+          { answer: "RUN", clue: "Combine words — The art of finishing games as fast as possible" },
+          { answer: "WAY", clue: "Combine words — Where planes take off and land" },
+          { answer: "POINT", clue: "Combine words — A map marker guiding your next objective" },
+        ],
+      },
+      // ── 17  Easy · 3 steps · compound chain ──
+      {
+        startWord: "RED",
+        startDesc: "The color of a critical HP bar",
+        steps: [
+          { answer: "DEAD", clue: "Combine words — Rockstar's Wild West saga" },
+          { answer: "LOCK", clue: "Combine words — Valve's hero shooter" },
+          { answer: "DOWN", clue: "Combine words — A mode where nobody escapes" },
+        ],
+      },
+      // ── 18  Medium · 4 steps ──
+      {
+        startWord: "DOOM",
+        startDesc: "id Software's demon-slaying classic",
+        steps: [
+          { answer: "BOOM", clue: "Change a letter — What barrels do when you shoot them" },
+          { answer: "LOOM", clue: "Change a letter — A LucasArts adventure classic" },
+          { answer: "BLOOM", clue: "Add a letter — The glow effect on every modern lens" },
+          { answer: "BLOOD", clue: "Change a letter — What Mortal Kombat put on the map" },
+        ],
+      },
+      // ── 19  Medium · 3 steps ──
+      {
+        startWord: "ROGUE",
+        startDesc: "The genre that never gives you a second chance",
+        steps: [
+          { answer: "ROUGE", clue: "Rearrange — Sonic's jewel-thieving bat" },
+          { answer: "ROUTE", clue: "Change a letter — A numbered path through Pokémon's world" },
+          { answer: "OUTER", clue: "Rearrange — ___ Wilds: the time-looping space mystery" },
+        ],
+      },
+      // ── 20  Medium · 3 steps · compound chain ──
+      {
+        startWord: "MOON",
+        startDesc: "Majora's Mask's terrifying face in the sky",
+        steps: [
+          { answer: "LIGHT", clue: "Combine words — What illuminates every dark cave" },
+          { answer: "SABER", clue: "Combine words — A Jedi's weapon in every Star Wars game" },
+          { answer: "TOOTH", clue: "Combine words — The fanged Ice Age predator" },
+        ],
+      },
+      // ── 21  Medium · 3 steps · anagram chain ──
+      {
+        startWord: "SONIC",
+        startDesc: "SEGA's blue blur",
+        steps: [
+          { answer: "ICONS", clue: "Rearrange — What fills an ability bar" },
+          { answer: "COINS", clue: "Rearrange — What Mario can never have enough of" },
+          { answer: "SCION", clue: "Rearrange — The heir to a dark bloodline" },
+        ],
+      },
+      // ── 22  Medium-hard · 4 steps ──
+      {
+        startWord: "DREAM",
+        startDesc: "What Sega's final console was chasing",
+        steps: [
+          { answer: "DREAD", clue: "Change a letter — Metroid ___: Samus's latest hunt" },
+          { answer: "TREAD", clue: "Change a letter — What tank tracks do in armored combat" },
+          { answer: "TRADE", clue: "Rearrange — The backbone of every MMO economy" },
+          { answer: "RATED", clue: "Rearrange — What the ESRB does before launch" },
+        ],
+      },
+      // ── 23  Medium-hard · 4 steps ──
+      {
+        startWord: "VALVE",
+        startDesc: "The company behind Half-Life and Steam",
+        steps: [
+          { answer: "VALE", clue: "Drop a letter — A valley in any fantasy kingdom" },
+          { answer: "TALE", clue: "Change a letter — Under___, or Bard's ___" },
+          { answer: "LATE", clue: "Rearrange — What your dodge roll was when you got hit" },
+          { answer: "PLATE", clue: "Add a letter — The heaviest armor class" },
+        ],
+      },
+      // ── 24  Hard · 4 steps · pure anagram chain ──
+      {
+        startWord: "SMITE",
+        startDesc: "Hi-Rez's mythological MOBA",
+        steps: [
+          { answer: "MITES", clue: "Rearrange — Tiny pests in cave levels" },
+          { answer: "TIMES", clue: "Rearrange — What speedrunners obsess over" },
+          { answer: "ITEMS", clue: "Rearrange — What fills your inventory" },
+          { answer: "EMITS", clue: "Rearrange — What a signal tower does" },
+        ],
+      },
+      // ── 25  Hard · 4 steps · pure anagram chain ──
+      {
+        startWord: "STEAM",
+        startDesc: "Valve's PC gaming empire",
+        steps: [
+          { answer: "MEATS", clue: "Rearrange — What you carve from monsters in Monster Hunter" },
+          { answer: "TEAMS", clue: "Rearrange — What you draft in esports" },
+          { answer: "MATES", clue: "Rearrange — Your allies in co-op" },
+          { answer: "TAMES", clue: "Rearrange — What you do to dinos in ARK" },
+        ],
+      },
+      // ── 26  Hard · 4 steps ──
+      {
+        startWord: "GAMES",
+        startDesc: "What you're here to play",
+        steps: [
+          { answer: "MAGES", clue: "Rearrange — The arcane class in every RPG" },
+          { answer: "RAGES", clue: "Change a letter — What barbarians do in battle" },
+          { answer: "GEARS", clue: "Rearrange — ___ of War: Marcus Fenix's saga" },
+          { answer: "TEARS", clue: "Change a letter — ___ of the Kingdom" },
+        ],
+      },
+      // ── 27  Hard · 4 steps ──
+      {
+        startWord: "GHOST",
+        startDesc: "Pac-Man's colorful chasers",
+        steps: [
+          { answer: "HOST", clue: "Drop a letter — The server that runs the lobby" },
+          { answer: "SHOT", clue: "Rearrange — Every FPS player's bread and butter" },
+          { answer: "SHOP", clue: "Change a letter — Where you spend gold between rounds" },
+          { answer: "HOPS", clue: "Rearrange — What platformer characters do all day" },
         ],
       },
     ];
 
     const DIFFICULTY_TIERS = [
-      [0, 1],
-      [2, 3],
-      [4, 5],
-      [6, 7],
-      [8, 9],
-      [10, 11],
-      [12, 13],
+      [0, 1, 14, 15],
+      [2, 3, 16, 17],
+      [4, 5, 18, 19],
+      [6, 7, 20, 21],
+      [8, 9, 22, 23],
+      [10, 11, 24, 25],
+      [12, 13, 26, 27],
     ];
 
     const diffLabels = [
@@ -430,8 +577,6 @@ export default function VideogaddlePage() {
       html += `<span class="r-step-num">${index + 1}</span>`;
       if (isSolved) {
         html += `<span class="r-step-score">${getStepEmoji(hints)}</span>`;
-      } else {
-        html += `<span class="r-step-length">${step.answer.length} letters</span>`;
       }
       html += "</div>";
 
@@ -440,11 +585,9 @@ export default function VideogaddlePage() {
         const letterSt = wasRevealed ? "revealed" : "solved";
         html += buildLetterBoxes(step.answer, letterSt);
       } else if (isActive) {
-        html += buildLetterBoxes(step.answer, "active");
-
         html += '<div class="r-input-area">';
         html += `<input type="text" class="r-input" id="r-answer-input"
-          placeholder="Type your answer..." maxlength="${step.answer.length + 5}"
+          placeholder="Type your answer..." maxlength="15"
           value="${state.input}" autocomplete="off" autocapitalize="off" />`;
 
         if (state.wrongFlash) {
@@ -457,7 +600,7 @@ export default function VideogaddlePage() {
         html += '<button class="btn primary" id="r-submit-btn">Submit</button>';
         html += "</div></div>";
       } else {
-        html += buildLetterBoxes(step.answer, "locked");
+        html += '<div class="r-letters"><div class="r-letter locked">?</div></div>';
       }
 
       html += "</div>";
@@ -531,19 +674,19 @@ export default function VideogaddlePage() {
           <div class="r-clue-pool" style="margin:16px 0">
             <div class="r-clue-pool-label">CLUES</div>
             <div class="r-clue-pool-list">
-              <div class="r-pool-clue"><span class="r-pool-bullet">•</span><span>Swap a letter — what a Goomba looks like</span></div>
-              <div class="r-pool-clue"><span class="r-pool-bullet">•</span><span>Change a letter — what Koopa shells do to you</span></div>
+              <div class="r-pool-clue"><span class="r-pool-bullet">•</span><span>Change a letter — What a Goomba looks like</span></div>
+              <div class="r-pool-clue"><span class="r-pool-bullet">•</span><span>Change a letter — What Koopa shells do to you</span></div>
             </div>
           </div>
-          <p>Figure out which clue matches the current step, then type the answer.</p>`,
+          <p>Figure out which clue matches the current step and how the word transforms.</p>`,
       },
       {
         title: "Solve each step",
-        body: `<p>The clue tells you <strong>how</strong> to transform the word and <strong>what</strong> the answer means.</p>
+        body: `<p>The clue tells you <strong>how</strong> to transform the word (change, add, drop, rearrange, or combine) and <strong>what</strong> the answer means.</p>
           <div style="margin:16px 0">
             <div class="r-step solved" style="margin-bottom:12px">
               <div class="r-step-header"><span class="r-step-num" style="background:var(--green-border);border-color:var(--green-border);color:#fff">1</span><span class="r-step-score">⭐</span></div>
-              <div class="r-clue">Change a letter — what Koopa shells do to you</div>
+              <div class="r-clue">Change a letter — What Koopa shells do to you</div>
               <div class="r-letters">
                 <div class="r-letter solved">B</div><div class="r-letter solved">U</div><div class="r-letter solved">M</div><div class="r-letter solved">P</div>
               </div>
@@ -570,7 +713,7 @@ export default function VideogaddlePage() {
             <div class="r-tut-score-row"><span class="r-tut-emoji">🟡</span><span>Monday–Wednesday — medium difficulty</span></div>
             <div class="r-tut-score-row"><span class="r-tut-emoji">🔴</span><span>Thursday &amp; Friday — longer, trickier chains</span></div>
           </div>
-          <p>Some puzzles use letter changes, some use compound words, some use sounds — stay sharp!</p>`,
+          <p>Each clue tells you the operation, but you won't know how many letters the answer has — that's the challenge!</p>`,
       },
     ];
 
